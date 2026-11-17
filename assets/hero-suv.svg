@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-label="Авторская иллюстрация внедорожника на тёмном фоне">
+<defs>
+ <radialGradient id="ice" cx="72%" cy="57%" r="57%"><stop offset="0" stop-color="#163343"/><stop offset=".55" stop-color="#0e1a26"/><stop offset="1" stop-color="#080e15"/></radialGradient>
+ <linearGradient id="body" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#c6d4de"/><stop offset=".15" stop-color="#5a7081"/><stop offset=".36" stop-color="#253440"/><stop offset=".7" stop-color="#111b27"/><stop offset="1" stop-color="#3c5666"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#233b4e"/><stop offset=".28" stop-color="#071521"/><stop offset=".65" stop-color="#18394b"/><stop offset="1" stop-color="#050c16"/></linearGradient>
+ <linearGradient id="bump" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#708696"/><stop offset=".3" stop-color="#233541"/><stop offset=".6" stop-color="#090f18"/><stop offset="1" stop-color="#385666"/></linearGradient>
+ <linearGradient id="road" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#1c3c4a" stop-opacity=".8"/><stop offset="1" stop-color="#081019" stop-opacity="0"/></linearGradient>
+ <radialGradient id="wheel" cx="50%" cy="40%"><stop stop-color="#4b6677"/><stop offset=".55" stop-color="#171f2c"/><stop offset=".9" stop-color="#03060b"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="19"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+ <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#6ebfd1" opacity=".23"/></pattern>
+</defs>
+<rect width="1100" height="760" fill="url(#ice)"/><rect width="1100" height="760" fill="url(#dots)" opacity=".65"/>
+<path d="M0 495Q575 375 1100 420" fill="none" stroke="#5d9dae" stroke-opacity=".13" stroke-width="2"/>
+<path d="M0 545Q620 460 1100 510" fill="none" stroke="#5d9dae" stroke-opacity=".16" stroke-width="2"/>
+<g opacity=".42"><path d="M66 610L828 560" stroke="#50c8eb" stroke-width="2"/><path d="M93 645L916 569" stroke="#54c0d6" stroke-width="1"/></g>
+<ellipse cx="600" cy="626" rx="460" ry="42" fill="#020811" opacity=".85" filter="url(#glow)"/>
+<ellipse cx="606" cy="626" rx="375" ry="30" fill="#3e92a7" opacity=".19" filter="url(#glow)"/>
+<!-- distant northern glow -->
+<path d="M106 184Q526 71 1100 242" fill="none" stroke="#8ce4f8" stroke-width="60" stroke-opacity=".028" filter="url(#glow)"/>
+<!-- vehicle roof, chassis, silhouette -->
+<path d="M210 445 297 423 341 302Q366 265 425 247L731 252Q773 264 797 296L864 401 915 423Q960 443 976 476L984 555Q981 588 960 598L184 596Q160 582 160 547L166 482Q171 457 210 445Z" fill="url(#body)" stroke="#7593a6" stroke-opacity=".68" stroke-width="3"/>
+<!-- car roof top glint -->
+<path d="M355 289Q390 253 430 250L727 255Q759 263 781 293" fill="none" stroke="#c4e5ed" stroke-opacity=".6" stroke-width="3"/>
+<!-- windows -->
+<path d="M376 307Q394 283 433 277L570 281 567 409 328 418Z" fill="url(#glass)" stroke="#647d8b" stroke-width="3"/>
+<path d="M584 281 720 283Q742 289 760 308L829 407 583 408Z" fill="url(#glass)" stroke="#647d8b" stroke-width="3"/>
+<!-- windshield snowy light reflection -->
+<path d="M608 287 663 288 741 401 700 402Z" fill="#a4deeb" opacity=".1"/>
+<path d="M400 288 454 281 374 412 345 414Z" fill="#c4f1f7" opacity=".08"/>
+<!-- door outlines -->
+<path d="M574 287 568 509 559 582M828 405L822 563" fill="none" stroke="#97b4c1" stroke-opacity=".35" stroke-width="2"/>
+<!-- belt and panel gloss -->
+<path d="M190 443Q520 431 931 440" fill="none" stroke="#c1e2ed" stroke-opacity=".35" stroke-width="5"/>
+<path d="M182 480Q468 463 959 485" fill="none" stroke="#a9dae9" stroke-opacity=".12" stroke-width="10"/>
+<path d="M195 577Q599 563 962 572" fill="none" stroke="#a5ebfa" stroke-opacity=".13" stroke-width="6"/>
+<!-- handles -->
+<path d="M482 450h58M707 450h50" stroke="#d1eaf0" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+<path d="M484 458h45M710 458h38" stroke="#050e15" stroke-width="3"/>
+<!-- trim grille and front bumper -->
+<path d="M168 499 259 480 257 577 172 581Z" fill="url(#bump)" stroke="#4f7183" stroke-width="2"/>
+<path d="M176 527 251 511 248 563 176 568Z" fill="#050e16" stroke="#8299a2" stroke-opacity=".4"/>
+<g stroke="#7693a1" stroke-width="3" opacity=".56"><path d="M189 521v45M204 518v44M219 515v44M235 512v46"/></g>
+<!-- headlamps -->
+<path d="M172 466 292 445 283 486 165 505Z" fill="#cee7ec" opacity=".88"/>
+<path d="M175 473 287 454 279 478 171 495Z" fill="#a4f4ff" opacity=".92"/>
+<path d="M165 486 287 462" stroke="#d3fbff" stroke-width="7" opacity=".94" filter="url(#soft)"/>
+<path d="M172 483 280 462" stroke="#dffaff" stroke-width="3"/>
+<path d="M910 455 954 472 960 498 914 488Z" fill="#d7e8e9" opacity=".7"/>
+<!-- wheel shadows and wheels -->
+<ellipse cx="355" cy="564" rx="89" ry="104" fill="#070d15" stroke="#5c7889" stroke-width="9"/>
+<ellipse cx="355" cy="564" rx="62" ry="76" fill="url(#wheel)" stroke="#101e27" stroke-width="8"/>
+<ellipse cx="355" cy="564" rx="41" ry="53" fill="#566f7f" stroke="#8fa5ae" stroke-width="3"/>
+<ellipse cx="355" cy="564" rx="14" ry="19" fill="#17242e" stroke="#b4d0d8" stroke-width="4"/>
+<g stroke="#263c49" stroke-width="14"><path d="M355 513v102M317 543l76 42M393 542l-76 43"/></g>
+<ellipse cx="842" cy="562" rx="77" ry="92" fill="#040a11" stroke="#5c7889" stroke-width="8"/>
+<ellipse cx="842" cy="562" rx="51" ry="63" fill="url(#wheel)" stroke="#182b33" stroke-width="6"/>
+<ellipse cx="842" cy="562" rx="31" ry="42" fill="#627986" stroke="#adcad4" stroke-width="3"/>
+<ellipse cx="842" cy="562" rx="12" ry="16" fill="#17242e"/>
+<g stroke="#2b404e" stroke-width="9"><path d="M842 522v80M809 550l65 27M875 550l-65 27"/></g>
+<!-- front light spill -->
+<path d="M174 478 20 419 15 560 175 493Z" fill="#84d5e7" opacity=".11" filter="url(#glow)"/>
+<path d="M168 490 40 471" stroke="#ccfbff" stroke-width="4" opacity=".33" filter="url(#soft)"/>
+<!-- floor reflection -->
+<path d="M188 624 900 624 1028 752H65Z" fill="url(#road)" opacity=".23"/>
+<g fill="#d4f8ff" opacity=".5"><circle cx="79" cy="212" r="1.4"/><circle cx="121" cy="327" r="1.1"/><circle cx="985" cy="179" r="1.4"/><circle cx="837" cy="117" r="1"/></g>
+</svg>

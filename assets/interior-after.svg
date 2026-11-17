@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520" aria-label="Схематичная иллюстрация автомобильного сиденья, чистое">
+    <defs><linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#365566"/><stop offset=".7" stop-color="#14232d"/><stop offset="1" stop-color="#27333a"/></linearGradient><linearGradient id="seat" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#456b79"/><stop offset="1" stop-color="#17222a"/></linearGradient><pattern id="fabric" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M0 9l9-9" stroke="#f3f5ee" stroke-opacity=".075"/></pattern><radialGradient id="bg" cx="50%" cy="20%" r="80%"><stop stop-color="#1b3441"/><stop offset="1" stop-color="#0c131b"/></radialGradient></defs>
+    <rect width="820" height="520" fill="url(#bg)"/><path d="M100 500 220 40H609L750 500Z" fill="#080f16" opacity=".6"/>
+    <path d="M215 80Q210 47 241 37H570Q605 37 605 76L639 344Q626 385 590 397H247Q205 383 201 337Z" fill="url(#back)" stroke="#8ca4ae" stroke-opacity=".4" stroke-width="4"/>
+    <path d="M315 98v256M500 98v256" stroke="#a8d3dc" stroke-opacity=".16" stroke-width="5"/>
+    <path d="M207 331Q412 370 642 329L701 422Q708 464 660 484H168Q124 464 140 422Z" fill="url(#seat)" stroke="#9ec0cf" stroke-opacity=".33" stroke-width="4"/>
+    <path d="M207 331Q412 370 642 329L701 422Q708 464 660 484H168Q124 464 140 422Z" fill="url(#fabric)"/>
+    <path d="M321 385 291 479M505 385l33 96" stroke="#bed7df" stroke-opacity=".19" stroke-width="4"/>
+    <path d="M210 86Q400 118 601 86" stroke="#e3f4fb" stroke-opacity=".13" stroke-width="5" fill="none"/>
+    <path d="M175 320q235 45 515 0" stroke="#e2ffff" opacity=".15" stroke-width="5" fill="none"/>
+    </svg>
